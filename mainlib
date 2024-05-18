@@ -125,7 +125,7 @@ function DiscordLib:Window(text)
 	TopFrame.Name = "TopFrame"
 	TopFrame.Parent = MainFrame
 	TopFrame.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
-	TopFrame.BackgroundTransparency = 1.000
+	TopFrame.BackgroundTransparency = 0.5
 	TopFrame.BorderSizePixel = 0
 	TopFrame.Position = UDim2.new(-0.000658480625, 0, 0, 0)
 	TopFrame.Size = UDim2.new(0, 681, 0, 22)
@@ -133,7 +133,7 @@ function DiscordLib:Window(text)
 	TopFrameHolder.Name = "TopFrameHolder"
 	TopFrameHolder.Parent = TopFrame
 	TopFrameHolder.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
-	TopFrameHolder.BackgroundTransparency = 1.000
+	TopFrameHolder.BackgroundTransparency = 0.5
 	TopFrameHolder.BorderSizePixel = 0
 	TopFrameHolder.Position = UDim2.new(-0.000658480625, 0, 0, 0)
 	TopFrameHolder.Size = UDim2.new(0, 681, 0, 22)
@@ -141,7 +141,7 @@ function DiscordLib:Window(text)
 	Title.Name = "Title"
 	Title.Parent = TopFrame
 	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	Title.BackgroundTransparency = 1.000
+	Title.BackgroundTransparency = 0.5
 	Title.Position = UDim2.new(0.0102790017, 0, 0, 0)
 	Title.Size = UDim2.new(0, 192, 0, 23)
 	Title.Font = Enum.Font.Gotham
@@ -199,6 +199,7 @@ function DiscordLib:Window(text)
 
 	Userpad.Name = "Userpad"
 	Userpad.Parent = TopFrameHolder
+	Userpad.BackgroundTransparency = 0.5
 	Userpad.BackgroundColor3 = Color3.fromRGB(41, 43, 47)
 	Userpad.BorderSizePixel = 0
 	Userpad.Position = UDim2.new(0.106243297, 0, 15.9807148, 0)
@@ -207,6 +208,7 @@ function DiscordLib:Window(text)
 	UserIcon.Name = "UserIcon"
 	UserIcon.Parent = Userpad
 	UserIcon.BackgroundColor3 = Color3.fromRGB(31, 33, 36)
+	UserIcon.BackgroundTransparency = 0.5
 	UserIcon.BorderSizePixel = 0
 	UserIcon.Position = UDim2.new(0.0340000018, 0, 0.123999998, 0)
 	UserIcon.Size = UDim2.new(0, 32, 0, 32)
@@ -218,7 +220,7 @@ function DiscordLib:Window(text)
 	UserImage.Name = "UserImage"
 	UserImage.Parent = UserIcon
 	UserImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	UserImage.BackgroundTransparency = 1.000
+	UserImage.BackgroundTransparency = 0.5
 	UserImage.Size = UDim2.new(0, 32, 0, 32)
 	UserImage.Image = pfp 
 	
@@ -233,7 +235,7 @@ function DiscordLib:Window(text)
 	UserName.Name = "UserName"
 	UserName.Parent = Userpad
 	UserName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	UserName.BackgroundTransparency = 1.000
+	UserName.BackgroundTransparency = 0.5
 	UserName.BorderSizePixel = 0
 	UserName.Position = UDim2.new(0.230000004, 0, 0.115999997, 0)
 	UserName.Size = UDim2.new(0, 98, 0, 17)
